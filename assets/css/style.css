@@ -1,0 +1,248 @@
+* {
+  margin: 0%;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* header section css */
+
+.header {
+  background: url("../../assets/img/donation1.jpg"), rgb(163, 145, 145);
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header-content {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.help-those {
+  color: white;
+  margin: 20px 300px;
+  text-transform: capitalize;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.header-desc {
+  color: white;
+  margin: 20px 300px;
+}
+
+.donate-button {
+  display: block;
+  margin: auto;
+  border: 0;
+  background: #ff5959;
+  border-radius: 5px;
+  padding: 20px 24px;
+  color: white;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.button-link {
+  text-decoration: none;
+}
+
+/* donate todat section css */
+.donate-today {
+  margin-top: 100px;
+}
+.donate-dev {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.donate-heading {
+  font-size: 50px;
+  text-transform: capitalize;
+}
+
+.donate-desc {
+  margin: 30px 400px;
+  text-align: center;
+  color: #707070;
+}
+.donate-amount {
+  height: 100px;
+  width: 100px;
+  font-size: 25px;
+  font-weight: 700;
+  color: #707070;
+  border: 0;
+  background-color: white;
+}
+
+.donate-amount:hover {
+  height: 100px;
+  width: 100px;
+  font-size: 25px;
+  font-weight: 700;
+  color: #ff5959;
+  border: 2px solid #ff5959;
+}
+
+.other-amount {
+  color: #707070;
+}
+.h-line {
+  color: #ff5959;
+}
+
+/* our donate plan section */
+
+.our-donate {
+  margin-top: 100px;
+}
+.donate-plane {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.donate-plane-heading {
+  font-size: 50px;
+  text-transform: capitalize;
+  margin-bottom: 40px;
+}
+.donate-plane-desc {
+  margin: 0 400px;
+  text-align: center;
+  color: #707070;
+}
+
+.donate-body {
+  display: flex;
+  margin: 50px 150px;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.food {
+  background-color: antiquewhite;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.shelter {
+  background-color: rgb(238, 206, 163);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.education {
+  background-color: rgb(243, 193, 128);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.plan-heading {
+  margin: 20px 0;
+}
+
+.plan-desc {
+  color: #707070;
+}
+
+/* <!-- Their lives depend on your donation --> */
+
+.depend-lives {
+  margin: 150px 200px;
+}
+.depend-donation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.depend-heading {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.depend-desc {
+  color: #707070;
+}
+.public-img {
+  border-radius: 10px;
+}
+
+/* <!-- Get My Updates section --> */
+.my-update {
+  margin: 100px 10px;
+}
+.update-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.update-heading {
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.update-desc {
+  color: #707070;
+  margin: 50px 400px;
+  text-align: center;
+}
+
+.form-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  height: 200px;
+  background-color: rgb(241, 208, 165);
+  border-radius: 10px;
+  border: none;
+}
+.email {
+  border: 0;
+  background-color: #e9d0d0;
+  padding: 5px 25px;
+  font-size: 20px;
+  color: white;
+}
+
+.subscribe {
+  border: 0;
+  width: 100px;
+  background-color: #ff5959;
+  padding: 5px 10px;
+  font-size: 20px;
+  color: white;
+  border-radius: 5 5 0 0;
+}
+
+/* footer section */
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  height: 200px;
+  text-align: center;
+}
+
+.be-humble {
+  color: #ff5959;
+  font-family: "Lobster Two", cursive;
+}
+
+.do-it {
+  padding: 10px;
+  color: #ecdfdf;
+}
